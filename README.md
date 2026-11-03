@@ -1,42 +1,63 @@
-# Customer Churn Prediction
+# Customer Churn Prediction 📊
 
-An end-to-end machine learning project that predicts whether a telecom customer is likely to leave (churn) based on customer information.
+## Project Overview
+This project uses Machine Learning to predict whether a customer is likely to leave a service (Churn) or continue using it.
 
-## Project overview
-- Dataset: Telco Customer Churn (7,043 rows and 21 columns in the working dataset).
-- Target: `Churn` (`Yes` / `No`).
-- Goal: build a classification model and provide predictions through a Streamlit web app.
+The goal is to help businesses identify customers who may leave and take preventive actions.
 
-## Project structure
-```text
-customer_churn_prediction/
-├── app.py
-├── customer_churn_model.pkl
-├── requirements.txt
-├── README.md
-├── .gitignore
-├── data/
-│   └── README.md
-└── models/
-    └── README.md
+## Objectives
+- Analyze customer data.
+- Perform data cleaning and preprocessing.
+- Conduct Exploratory Data Analysis (EDA).
+- Build and evaluate Machine Learning models.
+- Predict customer churn.
+- Deploy the model using Streamlit.
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Streamlit
+- Jupyter Notebook
+
+## Machine Learning Workflow
+1. Data Collection
+2. Data Cleaning
+3. Exploratory Data Analysis
+4. Feature Engineering
+5. Train-Test Split
+6. Model Training
+7. Hyperparameter Tuning
+8. Model Evaluation
+9. Model Deployment
+
+## Project Files
+- `app.py` – Streamlit web application.
+- `customer_churn_model.pkl` – Trained Machine Learning model.
+- `requirements.txt` – Required Python libraries.
+- Jupyter Notebook – Project development and analysis.
+
+## How to Run the Project
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
 ```
 
-## Run locally
-1. Clone or download this repository.
-2. Open a terminal in the project folder.
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Put your trained model file named `customer_churn_model.pkl` in the project root (or update the path in `app.py`).
-5. Run the Streamlit app:
-   ```bash
-   streamlit run app.py
-   ```
+Run the application:
 
-## Model and app
-The trained model is saved as `customer_churn_model.pkl`. The Streamlit interface is in `app.py`. Make sure the app's input fields and preprocessing exactly match the features and preprocessing used during model training.
+```bash
+streamlit run app.py
+```
 
-## Dataset
-The dataset is not included in this repository by default. Add your dataset only if you have permission to share it. See `data/README.md`.
+## Project Outcome
+Developed a Machine Learning application that predicts customer churn and provides churn probability to support business decision-making.
 
+## Author
+**Sajal Naik**
+
+GitHub: https://github.com/Sajal-arch
