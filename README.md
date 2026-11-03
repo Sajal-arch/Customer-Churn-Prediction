@@ -40,7 +40,3 @@ The trained model is saved as `customer_churn_model.pkl`. The Streamlit interfac
 ## Dataset
 The dataset is not included in this repository by default. Add your dataset only if you have permission to share it. See `data/README.md`.
 
-## Notes
-- Do not upload passwords, API keys, private customer information, or other secrets.
-- Do not commit large or sensitive raw datasets.
-- Update this README with your final model name, evaluation metrics, and screenshots after verifying the app.
